@@ -41,7 +41,7 @@ Install-Module -Name ChangelogManagement
 ### Examples
 
 ``` PowerShell
-LinkPattern   = @{
+$LinkPattern   = @{
     FirstRelease  = "https://github.com/testuser/testrepo/tree/v{CUR}"
     NormalRelease = "https://github.com/testuser/testrepo/compare/v{PREV}..v{CUR}"
     Unreleased    = "https://github.com/testuser/testrepo/compare/v{CUR}..HEAD"
